@@ -1,0 +1,169 @@
+.navbar {
+    background-color: #052AE3;
+    color: #BEFF01;
+}
+
+.nav-link {
+    color: white;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #BEFF01;
+   
+}
+
+.offcanvas {
+    background-color: #052AE3;
+    color: #BEFF01;
+    max-width: 250px;
+}
+
+.imagem {
+    max-width: 150px;
+}
+
+.card {
+    height: 250px; 
+    border-radius: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white; 
+  
+  }
+  
+  .card-body{
+   background-color: rgba(0, 0, 0, 0.541);
+   height: 250px;
+  }
+  
+  
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+.social-icons i {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.pesquisa{
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.342);
+    font-size: 17px;
+    text-align: start;
+}
+
+.button {
+    background: transparent;
+    border: none;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    color: #BEFF01;
+}
+
+.icone-pesquisa{
+    color: white;
+    font-size: 30px;
+    transition: transform 0.3s ease;
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.icone-pesquisa:hover{
+    transform: scale(1.1);
+    color: #BEFF01;
+}
+
+
+.frase{
+    color: #052AE3;
+    font-size:19px;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+.gradenoticia, .ultimasnoticias  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    
+}
+.noticia {
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.noticia img {
+    max-width: 100%;
+    
+}
+h2 {
+    text-align: center;
+    color: #052AE3;
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+  
+}
+p{
+    font-size: 15px;
+}
+
+.opa{
+font-size: 20px;
+}
+.card-text{
+    color: white;
+}
+
+.page-link{
+    background-color: transparent;
+    border: none;
+    color: rgb(54, 48, 48);
+}
+
+.pagination{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 16px 0 30px;
+}
+
+hr{
+    margin-bottom: 115px;
+}
+
+footer{
+    background-color:#052AE3;
+}
+html{
+    scroll-behavior: smooth;
+}
+
